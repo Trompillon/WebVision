@@ -43,3 +43,28 @@ li:hover {
     text-decoration: underline;
     font-weight: bold;
 }
+
+footer {
+    background-color: #007BFF; 
+    padding: 15px;
+}
+
+ul.icones {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+ul.icones li {
+    margin: 0;
+}
+
+ul.icones li a {
+    display: block;
+}
+
+ul.icones li a img {
+    width: 30px; 
+    height: 30px;
+}
