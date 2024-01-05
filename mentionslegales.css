@@ -64,3 +64,8 @@ ul.icones li {
 ul.icones li a {
     display: block;
 }
+
+ul.icones li a img {
+    width: 30px; 
+    height: 30px;
+}
