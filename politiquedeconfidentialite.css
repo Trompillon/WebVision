@@ -68,3 +68,8 @@ ul.icones li a {
 .informations {
     font-size: 18px;
 }
+
+ul.icones li a img {
+    width: 30px; 
+    height: 30px;
+}
