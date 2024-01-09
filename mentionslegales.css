@@ -18,21 +18,18 @@ nav {
 ul {
     list-style: none;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     border: 2px solid #007BFF; 
     border-radius: 15px;
     width: 70%; 
     margin: auto;
     justify-content: space-around;
-    background-color: #929496;
-    color: black;
 }
 
 li {
     margin-right: 20px;
     cursor: pointer;
-    padding: 5px; 
     font-size: 40px;
 }
 
@@ -40,7 +37,15 @@ li:last-child {
     margin-right: 0;
 }
 
-li:hover {
+li a {
+    background-color: white; 
+    padding: 10px 15px 10px;
+    border-radius: 50px;
+    text-decoration: none; 
+    color: black; 
+}
+
+li:hover a {
     text-decoration: underline;
     font-weight: bold;
 }
@@ -62,10 +67,17 @@ ul.icones li {
 }
 
 ul.icones li a {
-    display: block;
+    background-color: #007BFF; 
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 ul.icones li a img {
     width: 30px; 
     height: 30px;
+}
+
+.nav-link {
+    box-shadow: 10px 10px 15px #FFD700;
 }
