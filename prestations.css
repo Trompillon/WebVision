@@ -1,0 +1,166 @@
+body {
+    background-color: #007BFF;
+    color: black;
+    margin: 0;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo img {
+    max-height: 100px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    border: 2px solid #007BFF; 
+    border-radius: 15px;
+    width: 70%; 
+    margin: auto;
+    justify-content: space-around;
+}
+
+li {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+li a {
+    background-color: white; 
+    padding: 10px 15px 10px;
+    border-radius: 50px;
+    text-decoration: none; 
+    color: black; 
+}
+
+li:hover a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #007BFF; 
+    padding: 15px;
+    margin-top: 10px;
+    border-top: 5px solid white;
+}
+
+ul.icones {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+ul.icones li {
+    margin: 0;
+}
+
+ul.icones li a {
+    background-color: #007BFF; 
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+ul.icones li a img {
+    width: 30px; 
+    height: 30px;
+}
+
+.nav-link {
+    box-shadow: 10px 10px 15px #FFD700;
+}
+
+/* Media queries pour les écrans plus petits */
+@media only screen and (max-width: 768px) {
+    /* Ajoutez ici les styles pour les écrans plus petits */
+    ul {
+        width: 90%;
+    }
+
+    li {
+        font-size: 30px;
+    }
+
+    li a {
+        padding: 8px 12px 8px;
+    }
+}
+
+main {
+    text-align: center;
+    margin-bottom: 175px;
+    margin-top: 75px;
+}
+
+.logo-image {
+    width: 50%;
+    max-width: 300px;
+    margin: auto;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 64px;
+    color: #FFD700;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 28px;
+    color: black;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 150;
+    font-style: italic;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-family: 'Open sans', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.text {
+    color: black;
+    font-family:'Open sans', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.boiteJaune {
+    width:900px;
+    height:150px;
+    background-color:#FFD700; 
+    vertical-align: center;
+}
