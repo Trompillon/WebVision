@@ -1,0 +1,166 @@
+body {
+    background-color: #007BFF;
+    color: black;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo img {
+    max-height: 100px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    border: 2px solid #007BFF; 
+    border-radius: 15px;
+    width: 70%; 
+    margin: auto;
+    justify-content: space-around;
+}
+
+li {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+li a {
+    background-color: white; 
+    padding: 10px 15px 10px;
+    border-radius: 50px;
+    text-decoration: none; 
+    color: black; 
+}
+
+li:hover a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    color: #F5F5F5;
+    font-family: Open Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+} 
+
+.images1 {
+    margin: 20px;
+}
+
+
+.images2 {
+    order: 2;
+    padding: 20px;
+}
+
+.text2 {
+    order: 1;
+    flex: 1;
+    padding: 20px;
+}
+
+.images3 {
+    margin: 20px;
+}
+
+
+.images4 {
+    order: 2;
+    padding: 20px;
+}
+
+.text4 {
+    order: 1;
+    flex: 1;
+    padding: 20px;
+}
+
+.images5 {
+    margin: 20px;
+}
+
+
+footer {
+    background-color: #007BFF; 
+    padding: 15px;
+    margin-top: 10px;
+    border-top: 5px solid white;
+}
+
+ul.icones {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+ul.icones li {
+    margin: 0;
+}
+
+ul.icones li a {
+    background-color: #007BFF; 
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+ul.icones li a img {
+    width: 30px; 
+    height: 30px;
+}
+
+.nav-link {
+    box-shadow: 10px 10px 15px #FFD700;
+}
+
+/* Media queries pour les écrans plus petits */
+@media only screen and (max-width: 768px) {
+    /* Ajoutez ici les styles pour les écrans plus petits */
+    ul {
+        width: 90%;
+    }
+
+    li {
+        font-size: 30px;
+    }
+
+    li a {
+        padding: 8px 12px 8px;
+    }
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 64px;
+    color: #FFD700;
+    text-align: center;
+}
+
+.logo-image {
+    width: 50%;
+    max-width: 300px;
+    margin: 0 auto;
+}
